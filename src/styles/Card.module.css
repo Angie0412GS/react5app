@@ -1,0 +1,42 @@
+.cardContainer { 
+  border: 1px solid #8B4513; 
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  background-color: white; 
+  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.897); 
+}
+
+.cardTitle {
+  font-size: 1.5em;
+  color: #333; 
+  margin-bottom: 10px;
+}
+
+.cardDescription {
+  font-size: 1em;
+  color: #666; 
+}
+
+.cardButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8B4513; 
+  color: white; 
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.cardButton:hover {
+  background-color: #A0522D; 
+}
+
+.cardImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px solid #8B4513; 
+}
